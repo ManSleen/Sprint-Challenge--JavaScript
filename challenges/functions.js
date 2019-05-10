@@ -1,5 +1,7 @@
-console.log("======================FUNCTIONS.JS======================");
-
+console.log(
+  "%cFUNCTIONS.JS",
+  "color: magenta; font-weight: bold; font-size: 3rem; text-shadow: 2px 2px 4px rgba(204,204,204, 0.6);"
+);
 // ==== Callbacks ====
 
 /* Step 1: Create a higher-order function that accepts a callback

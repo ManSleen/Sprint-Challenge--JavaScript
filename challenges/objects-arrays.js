@@ -1,5 +1,7 @@
-console.log("======================OBJECTS-ARRAYS.JS======================");
-// ==== Objects ====
+console.log(
+  "%cOBJECTS-ARRAYS.JS",
+  "color: yellow; font-weight: bold; font-size: 3rem; text-shadow: 2px 2px 4px rgba(204,204,204, 0.6);"
+); // ==== Objects ====
 
 /* 
   Given the following information about dinosaurs, create 3 objects: 

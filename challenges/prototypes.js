@@ -1,5 +1,7 @@
-console.log("======================PROTOTYPES.JS======================");
-/* ===== Prototype Practice ===== */
+console.log(
+  "%cPROTOTYPES.JS",
+  "color: cyan; font-weight: bold; font-size: 3rem; text-shadow: 2px 2px 4px rgba(204,204,204, 0.6);"
+); /* ===== Prototype Practice ===== */
 
 // Task: You are to build a cuboid maker that can return values for a cuboid's volume or surface area. Cuboids are similar to cubes but do not have even sides. Follow the steps in order to accomplish this challenge.
 
