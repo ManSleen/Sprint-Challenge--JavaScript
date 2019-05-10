@@ -38,7 +38,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
-// Explanation: The reason nestedfunction() can acess the variable `internal` is because of the concept of closure. Functions can search outside themselves for variables, but they can't look inside their inner functions for variables, like a one-way gate. This is the same reason myFunction() can access the variable 'external'. If we create a variable called 'nested' and store it inside of nestedFunction(), we won't be able to access it from myFunction() or from the global scope.
+// Explanation: The reason nestedfunction() can acess the variable `internal` is because of the concept of closure. If a function can't find a variable inside itself, it can search outside itself for variables, but it can't look inside its inner functions for variables, kind of like a one-way gate. This is the same reason myFunction() can access the variable 'external'. If we create a variable called 'nested' and store it inside of nestedFunction(), we won't be able to access it from myFunction() or from the global scope.
 
 const external = "I'm outside the function";
 
